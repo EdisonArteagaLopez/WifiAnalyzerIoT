@@ -1,20 +1,23 @@
-# WifiAnalyzerIoT
+# WiFi Analyzer IoT
 
-WiFi analyzer for IoT network diagnostics on Android
+Android app for analyzing WiFi networks in IoT environments — scans available networks, measures signal strength, and helps optimize IoT device placement.
 
-## Getting Started
+## Features
+- WiFi network scanner
+- Signal strength (RSSI) measurement
+- Channel and frequency analysis
+- IoT network diagnostics
 
-### Prerequisites
+## Requirements
 - Android Studio
-- Android SDK
+- Android SDK 21+
+- Device with WiFi support
 
-### Installation
-1. Clone the repository
-   ```bash
-   git clone git@github.com:EdisonArteagaLopez/WifiAnalyzerIoT.git
-   ```
-2. Open the project in Android Studio
-3. Build and run on your device or emulator
+## Installation
+```bash
+git clone git@github.com:EdisonArteagaLopez/WifiAnalyzerIoT.git
+```
+Open in Android Studio → Build → Run
 
 ## Author
 Edison Arteaga López
