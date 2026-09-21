@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WifiAnalyzerIoT</string>
+    <string name="latency_testing">Testando latência…</string>
+    <string name="latency_success">Latência: %1$d ms (%2$s)</string>
+    <string name="latency_fail">Falha no teste para %1$s</string>
+    <string name="latency_error_wifi">Erro: Conecte ao Wi-Fi</string>
+    <string name="unknown_ssid">SSID Desconhecido</string>
+    <string name="hidden_network">Rede Oculta</string>
+    <string name="wifi_details_format">%1$d dBm | %2$d MHz | Canal %3$d | %4$s</string>
+    <string name="scan_throttled">Scan limitado pelo sistema (throttle)</string>
+    <string name="location_required">Ative o GPS para escanear redes</string>
+    <string name="permissions_required">Permissões necessárias para funcionar</string>
+    <string name="wifi_disabled">Ligue o Wi-Fi para escanear</string>
+</resources>

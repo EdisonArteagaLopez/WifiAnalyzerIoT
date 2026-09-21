@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Item individual da lista de redes Wi-Fi.
+  Exibe:
+  - SSID
+  - BSSID
+  - RSSI
+  - frequência
+  - canal
+  - segurança
+  - distância aproximada
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/tvSsid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome da rede"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvBssid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BSSID"/>
+
+    <TextView
+        android:id="@+id/tvDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RSSI / frequência / canal / segurança / distância"
+        android:paddingTop="4dp"/>
+</LinearLayout>
